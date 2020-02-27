@@ -103,8 +103,28 @@
     color: #fff;
     background: #3498db;
 }
+.information-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
 
 .social-buttons{
+    position: absolute;
     padding: 100px 0;
     width: 100%;
     display: flex;
@@ -113,7 +133,7 @@
 }
 
 ul{
-    position: relative;
+    position: absolute;
     display: flex;
 }
 ul li{
